@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.db
+*.sqlite3
+venv/
+env/
+.env
+
+# Next.js / Node
+diary-app/node_modules/
+diary-app/.next/
+diary-app/out/
+diary-app/build/
+diary-app/.env*
+diary-app/.pnp
+diary-app/.pnp.*
+diary-app/.yarn/*
+diary-app/npm-debug.log*
+diary-app/yarn-debug.log*
+diary-app/yarn-error.log*
+diary-app/*.tsbuildinfo
+diary-app/next-env.d.ts
+diary-app/.vercel
+
+# Misc
+.DS_Store
+*.pem

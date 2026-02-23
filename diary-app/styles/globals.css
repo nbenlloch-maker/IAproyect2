@@ -1,0 +1,260 @@
+@import "tailwindcss";
+
+/* ── Tailwind v4 theme tokens ───────────────────────────────── */
+@theme {
+  --color-cream: #FDFBF7;
+  --color-parchment: #F5EFE0;
+  --color-fog: #EDE7D9;
+  --color-charcoal: #2D2D2D;
+  --color-ink: #1A1A2E;
+  --color-amber: #C8933A;
+  --color-amber-light: #E8B86D;
+  --color-sage: #6B8F71;
+  --color-sage-light: #A8C5AC;
+  --color-mist: #8A9BB5;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-hand: 'Caveat', cursive;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Base reset ─────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #FDFBF7;
+  color: #2D2D2D;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4c9b0;
+  border-radius: 12px;
+}
+
+/* ── Font utilities ─────────────────────────────────────────── */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Premium paper background texture ───────────────────────── */
+.paper-bg {
+  background-color: #FDFBF7;
+  background-image:
+    /* Warm paper grain */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* ── Diary Page content area ────────────────────────────────── */
+.diary-page-area {
+  position: relative;
+}
+
+/* Subtle left red-margin line (classic diary feel) */
+.diary-page-area::before {
+  content: '';
+  position: absolute;
+  left: 48px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(200, 100, 80, 0.12);
+  pointer-events: none;
+}
+
+/* ── Diary Textarea ─────────────────────────────────────────── */
+.diary-textarea {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 2.1875rem;
+  /* 35px — matches notebook lines */
+  color: #1a1208;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  min-height: 175px;
+  caret-color: #C8933A;
+  letter-spacing: 0.015em;
+}
+
+.diary-textarea::placeholder {
+  color: #c4b89a;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* ── Notebook lines (precise 35px grid) ─────────────────────── */
+.notebook-lines {
+  background-image: repeating-linear-gradient(to bottom,
+      transparent,
+      transparent 34px,
+      rgba(210, 195, 160, 0.55) 34px,
+      rgba(210, 195, 160, 0.55) 35px);
+  background-position-y: 6px;
+}
+
+/* ── Entry ink text ─────────────────────────────────────────── */
+.entry-text {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 2.1875rem;
+  color: #1a1208;
+  letter-spacing: 0.012em;
+  white-space: pre-wrap;
+  /* Subtle ink feel */
+  text-rendering: optimizeLegibility;
+}
+
+/* ── Shadow utilities ───────────────────────────────────────── */
+.shadow-notebook {
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 4px 16px rgba(0, 0, 0, 0.07),
+    0 8px 32px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-card {
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.06),
+    0 12px 36px rgba(0, 0, 0, 0.07);
+}
+
+.shadow-note {
+  box-shadow:
+    2px 3px 12px rgba(0, 0, 0, 0.08),
+    0 1px 3px rgba(0, 0, 0, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.shadow-lock {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* ── PIN button ─────────────────────────────────────────────── */
+.pin-btn {
+  transition: all 0.15s ease;
+}
+
+.pin-btn:active {
+  transform: scale(0.92);
+}
+
+/* ── Animations ─────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.5s ease forwards;
+}
+
+.animate-slide-right {
+  animation: slideInRight 0.4s ease forwards;
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* ── Premium button ─────────────────────────────────────────── */
+.btn-amber {
+  background: linear-gradient(135deg, #d4a045 0%, #c8933a 60%, #b87d28 100%);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.6rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(200, 147, 58, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.btn-amber:hover {
+  box-shadow: 0 4px 20px rgba(200, 147, 58, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.btn-amber:disabled {
+  background: #e8dfc6;
+  color: #b8a890;
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+}

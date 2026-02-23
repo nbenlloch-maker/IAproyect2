@@ -1,0 +1,608 @@
+[
+  {
+    "id": 1262300000001,
+    "content": "Hoy he terminado los exámenes de enero. Estoy reventado pero contento. Me he ido con los del barrio al bar de siempre a tomar algo. Nada especial pero ha estado bien. Mañana ya sin clases un rato, que ganas.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Exámenes de enero"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "reventado pero contento"
+      },
+      {
+        "type": "Entity",
+        "value": "amigos del barrio"
+      }
+    ],
+    "createdAt": "2010-01-25T20:14:00.000Z"
+  },
+  {
+    "id": 1264800000002,
+    "content": "He quedado con Santi para estudiar y al final no hemos estudiado nada. Nos hemos puesto a hablar de la vida y el tiempo ha pasado volando. Le he contado lo de la chica que me gusta de clase. No sé, es complicado. Tampoco sé si merece la pena liarla.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Entity",
+        "value": "Santi"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "complicado"
+      },
+      {
+        "type": "Core Belief",
+        "value": "no sé si merece la pena"
+      }
+    ],
+    "createdAt": "2010-02-10T19:30:00.000Z"
+  },
+  {
+    "id": 1267300000003,
+    "content": "Primer entreno de la temporada. He salido a correr por el parque y me he dado cuenta de lo mal que estoy físicamente. Voy a intentar ser constante esta vez. Ya sé que lo digo siempre pero esta vez va en serio. Me propongo salir mínimo tres veces a la semana.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Primer entreno de la temporada"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "constancia"
+      },
+      {
+        "type": "Core Belief",
+        "value": "esta vez va en serio"
+      }
+    ],
+    "createdAt": "2010-03-05T09:45:00.000Z"
+  },
+  {
+    "id": 1270000000004,
+    "content": "Discusión con mi padre por lo de la carrera. Él quiere que haga algo más seguro. Yo no tengo muy claro qué quiero pero sé que no quiero hacer algo solo por seguridad. A veces siento que no me entiende. Luego nos hemos reconciliado en la cena, como siempre.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Entity",
+        "value": "padre"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "no me entiende"
+      },
+      {
+        "type": "Core Belief",
+        "value": "no quiero hacer algo solo por seguridad"
+      }
+    ],
+    "createdAt": "2010-04-12T22:00:00.000Z"
+  },
+  {
+    "id": 1274000000005,
+    "content": "Verano. Trabajo de camarero para pagarme lo de septiembre. El jefe es un poco borde pero los compañeros molan. He conocido a un tío de Bilbao muy gracioso, se llama Mikel. Nos hemos reído mucho hoy.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Trabajo de camarero"
+      },
+      {
+        "type": "Entity",
+        "value": "Mikel de Bilbao"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "reído mucho"
+      }
+    ],
+    "createdAt": "2010-07-18T21:30:00.000Z"
+  },
+  {
+    "id": 1277700000006,
+    "content": "Hoy he llegado a Amsterdam. Todo es gris y hace un frío que pela. El apartamento es pequeño pero tiene su encanto. Me siento raro, solo pero emocionado a la vez. Primer día siendo realmente independiente. Vamos a ver qué pasa.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Llegada a Amsterdam"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "solo pero emocionado"
+      },
+      {
+        "type": "Core Belief",
+        "value": "primer día siendo realmente independiente"
+      }
+    ],
+    "createdAt": "2010-09-01T18:45:00.000Z"
+  },
+  {
+    "id": 1420000000007,
+    "content": "Llevo tres meses en DEGIRO y cada día aprendo algo nuevo. El mundo de los mercados me engancha. Hoy he entendido cómo funciona el mercado de futuros y me ha parecido alucinante que puedas apostar a que algo baja. Salgo a correr por el parque Vondelpark cuando puedo, que es lo que me mantiene cuerdo aquí.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Entity",
+        "value": "DEGIRO"
+      },
+      {
+        "type": "Event",
+        "value": "Aprender mercado de futuros"
+      },
+      {
+        "type": "Entity",
+        "value": "Vondelpark"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "me mantiene cuerdo"
+      }
+    ],
+    "createdAt": "2015-01-10T20:00:00.000Z"
+  },
+  {
+    "id": 1422000000008,
+    "content": "Media maratón de Amsterdam completada. 1h54. Estoy muy orgulloso, nunca pensé que llegaría a hacer esto. Mis compis del trabajo han venido a animarme en la meta. Eso ha sido lo mejor, verles ahí.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Media maratón Amsterdam 1h54"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "muy orgulloso"
+      },
+      {
+        "type": "Entity",
+        "value": "compañeros de trabajo en la meta"
+      }
+    ],
+    "createdAt": "2015-02-22T16:30:00.000Z"
+  },
+  {
+    "id": 1425000000009,
+    "content": "Hay un ambiente muy internacional en la oficina. Hoy he comido con gente de Alemania, India y Holanda. Me doy cuenta de lo pequeño que era mi mundo antes. El idioma a veces me cuesta pero me las apaño. Me gusta el reto.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Entity",
+        "value": "ambiente internacional"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "me gusta el reto"
+      },
+      {
+        "type": "Core Belief",
+        "value": "lo pequeño que era mi mundo antes"
+      }
+    ],
+    "createdAt": "2015-04-08T13:15:00.000Z"
+  },
+  {
+    "id": 1427500000010,
+    "content": "He conocido a una chica en un evento de networking. Se llama Laura, es de Madrid pero vive aquí desde hace 5 años. Hemos hablado un buen rato de lo que es vivir en Amsterdam siendo español. Cosas en común. No sé si habrá algo o no, pero ha sido bonito.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Entity",
+        "value": "Laura"
+      },
+      {
+        "type": "Event",
+        "value": "Networking"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "ha sido bonito"
+      }
+    ],
+    "createdAt": "2015-06-14T21:00:00.000Z"
+  },
+  {
+    "id": 1430000000011,
+    "content": "Echan mucho de menos a la familia. Hablo con mi madre todos los domingos pero no es lo mismo. A veces cuando pasan cosas pequeñas, como que mi hermano ha aprobado algo, me duele no estar allí. Esta vida tiene ese precio y lo asumo pero no siempre es fácil.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Sentiment/Trigger",
+        "value": "echo de menos a la familia"
+      },
+      {
+        "type": "Entity",
+        "value": "madre"
+      },
+      {
+        "type": "Entity",
+        "value": "hermano"
+      },
+      {
+        "type": "Core Belief",
+        "value": "esta vida tiene ese precio"
+      }
+    ],
+    "createdAt": "2015-08-30T22:30:00.000Z"
+  },
+  {
+    "id": 1432700000012,
+    "content": "Me han ofrecido más responsabilidades en DEGIRO. Voy a llevar parte del análisis de riesgo de una nueva cartera. Nervioso pero con ganas. Esto es para lo que vine.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Ascenso en DEGIRO"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "nervioso pero con ganas"
+      },
+      {
+        "type": "Core Belief",
+        "value": "esto es para lo que vine"
+      }
+    ],
+    "createdAt": "2015-10-05T19:00:00.000Z"
+  },
+  {
+    "id": 1580000000013,
+    "content": "Primer día de teletrabajo por el confinamiento. Esto es una locura, nadie sabe muy bien qué va a pasar. El mercado está en caída libre y en el trabajo hay estrés pero también oportunidad. Desde el balcón de mi piso de Amsterdam, todo parece irreal.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Confinamiento COVID"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "irreal"
+      },
+      {
+        "type": "Entity",
+        "value": "mercado en caída libre"
+      }
+    ],
+    "createdAt": "2020-03-16T17:00:00.000Z"
+  },
+  {
+    "id": 1582600000014,
+    "content": "Llevo semanas sin salir a correr como dios manda. El parque está cerrado. He empezado a hacer ejercicio en casa, que es un piso pequeño así que básicamente salto en el sitio. Necesito moverme, es mi válvula de escape.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Ejercicio en casa por confinamiento"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "necesito moverme"
+      },
+      {
+        "type": "Core Belief",
+        "value": "el deporte es mi válvula de escape"
+      }
+    ],
+    "createdAt": "2020-04-01T10:30:00.000Z"
+  },
+  {
+    "id": 1585300000015,
+    "content": "Han abierto los parques. He salido a correr y me he emocionado. Sonaba raro pero estar al aire libre después de semanas encerrado es brutal. He dado 10km sin parar. El cuerpo lo ha celebrado como si fuera una carrera.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Primera carrera tras confinamiento 10km"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "me he emocionado"
+      }
+    ],
+    "createdAt": "2020-05-02T12:00:00.000Z"
+  },
+  {
+    "id": 1588000000016,
+    "content": "Pensando seriamente en volver a España. Amsterdam ha sido increíble pero llevo años aquí y algo en mí quiere volver. No sé si es madurez o cansancio o simplemente que echo de menos el sol y la gente. Hablando con mi madre de esto.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Core Belief",
+        "value": "querer volver a España"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "echo de menos el sol y la gente"
+      },
+      {
+        "type": "Entity",
+        "value": "madre"
+      }
+    ],
+    "createdAt": "2020-06-20T21:45:00.000Z"
+  },
+  {
+    "id": 1590700000017,
+    "content": "No para de haber incertidumbre en el trabajo. Mucha gente en remoto, recortes en algunos equipos. Yo por ahora bien pero el ambiente ha cambiado. En estos momentos valoro más que nunca tener gente cerca.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Sentiment/Trigger",
+        "value": "incertidumbre"
+      },
+      {
+        "type": "Core Belief",
+        "value": "valoro tener gente cerca"
+      }
+    ],
+    "createdAt": "2020-08-15T20:00:00.000Z"
+  },
+  {
+    "id": 1593400000018,
+    "content": "DecIsión tomada. Me vuelvo a Valencia en enero. La familia, el sol, el mediterráneo. Cuatro años en Amsterdam han sido los mejores de mi vida pero hay un momento que sabes que es hora. Sin arrepentimiento, con ganas de lo que viene.",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Decisión de volver a Valencia"
+      },
+      {
+        "type": "Core Belief",
+        "value": "hay un momento que sabes que es hora"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "sin arrepentimiento"
+      }
+    ],
+    "createdAt": "2020-10-10T23:00:00.000Z"
+  },
+  {
+    "id": 1771687445210,
+    "content": "Hoy he ido a almorzar con un amigo alemán que ha venido a visitarme a valencia",
+    "aiResponse": "¡Hola, Jose! Qué bueno que recibes visitas en Valencia. Me pregunto, ¿cómo conociste a tu amigo alemán?\n",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "almorzar"
+      },
+      {
+        "type": "Entity",
+        "value": "amigo aleman"
+      },
+      {
+        "type": "Entity",
+        "value": "Valencia"
+      }
+    ],
+    "createdAt": "2026-02-21T15:24:05.210Z"
+  },
+  {
+    "id": 1771687482376,
+    "content": "Es un chico que trabajo conmigo en DEGIRO cuando yo vivia en Amsterdam",
+    "aiResponse": "¡Hola, Jose! Qué bueno que hayas podido reconectar con tu amigo de Ámsterdam ahora que vives en Valencia. Me pregunto, ¿qué tal fue trabajar juntos en DEGIRO?\n",
+    "tags": [
+      {
+        "type": "Entity",
+        "value": "DEGIRO"
+      },
+      {
+        "type": "Entity",
+        "value": "Amsterdam"
+      }
+    ],
+    "createdAt": "2026-02-21T15:24:42.376Z"
+  },
+  {
+    "id": 1771687525078,
+    "content": "La verdad que fue una buena experiencia estuve 4 años con ellos y me encanto la experiencia de poder trabajar en bolsa",
+    "aiResponse": "¡Hola, Jose! Cuatro años son un buen trecho. ¿Qué fue lo que más te gustó de trabajar en el mundo de la bolsa?\n",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "trabajar en bolsa"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "encanto la experiencia"
+      }
+    ],
+    "createdAt": "2026-02-21T15:25:25.078Z"
+  },
+  {
+    "id": 1771687633410,
+    "content": "Cambiemos de tema, me gusta mucho correr y tengo mañana una media maraton. Estoy muy ilusionado porque ire con mis amigos.",
+    "aiResponse": "¡Parece que la media maratón con amigos es especial! ¿Correr con otros te motiva más o prefieres el momento de soledad que te da el running en solitario?\n",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "media maraton"
+      },
+      {
+        "type": "Entity",
+        "value": "amigos"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "ilusionado"
+      }
+    ],
+    "createdAt": "2026-02-21T15:27:13.410Z"
+  },
+  {
+    "id": 1771688236322,
+    "content": "Hoy no he hecho deporte y me siento culpable. Ahora saldre un rato a trotar aunque sea",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Sentiment/Trigger",
+        "value": "culpable"
+      },
+      {
+        "type": "Event",
+        "value": "saldre a trotar"
+      }
+    ],
+    "createdAt": "2026-02-21T15:37:16.322Z"
+  },
+  {
+    "id": 1771689145867,
+    "content": "Hola, hoy me fui a almorzar con un amigo con el que trabaje en DEGIRO algunos el año pasado cuando vivia en Amsterdam. Hemos ido a la pascuala y nos hemos comido un buen bocadillo. Ha estado divertido la verdad. Esta tarde ire a torrent con unos amigos y aun tengo que entrenar hoy, no me he movido en todo el dia",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Almuerzo con un amigo"
+      },
+      {
+        "type": "Entity",
+        "value": "La pascuala"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "Divertido"
+      },
+      {
+        "type": "Event",
+        "value": "Ir a Torrent con amigos"
+      }
+    ],
+    "createdAt": "2026-02-21T15:52:25.867Z"
+  },
+  {
+    "id": 1771690465943,
+    "content": "Hoy no ha pasado nada",
+    "aiResponse": "",
+    "tags": [
+      {
+        "type": "Syntax",
+        "value": "Hoy no ha pasado nada"
+      }
+    ],
+    "createdAt": "2026-02-21T16:14:25.943Z"
+  },
+  {
+    "id": 1771693356497,
+    "content": "Hola como vas?",
+    "aiResponse": "¡Hola, Jose! ¿Todo bien por Valencia? Espero que el día te esté tratando con amabilidad.\n",
+    "tags": [
+      {
+        "type": "Syntax",
+        "value": "Hola como vas?"
+      }
+    ],
+    "createdAt": "2026-02-21T17:02:36.497Z"
+  },
+  {
+    "id": 1771847929575,
+    "content": "Ayer corri la media maraton y la hice en 1hora 40 minutos. Muy contento la verdad. Fue dificil por las cuestas pero muy buen tiempo",
+    "aiResponse": "¡Vaya, Jose, un carrerón! ¿Hubo alguien en particular en quien pensaras mientras superabas esas cuestas?\n",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "Media maraton"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "Contento",
+        "trigger": "Tiempo"
+      },
+      {
+        "type": "Syntax",
+        "value": "Muy contento la verdad."
+      }
+    ],
+    "createdAt": "2026-02-23T11:58:49.575Z"
+  },
+  {
+    "id": 1771865668002,
+    "content": "hola",
+    "aiResponse": "¡Hola, Jose! ¿Cómo te encuentras hoy?\n",
+    "tags": [],
+    "createdAt": "2026-02-23T16:54:28.002Z"
+  },
+  {
+    "id": 1771866033036,
+    "content": "Hoy es un gran d",
+    "aiResponse": "¡Hola, Jose! Un gran día, ¿eh? ¿Qué lo hace tan especial hoy?\n",
+    "tags": [
+      {
+        "type": "Syntax",
+        "value": "Hoy es un gran d"
+      }
+    ],
+    "createdAt": "2026-02-23T17:00:33.036Z"
+  },
+  {
+    "id": 1771867592847,
+    "content": "Hola hoy esta siendo muy buen dia",
+    "aiResponse": "Hola Jose, ¡qué bien que hoy esté siendo un buen día! ¿Hay algo en particular que lo haga especial?\n",
+    "tags": [
+      {
+        "type": "Sentiment/Trigger",
+        "value": "buen dia"
+      }
+    ],
+    "createdAt": "2026-02-23T17:26:32.847Z"
+  },
+  {
+    "id": 1771867692610,
+    "content": "hoy he ido a la crida de valencia  y me lo he pasado muy bien",
+    "aiResponse": "¡Hola, Jose! La Crida... ¡qué evento! ¿Qué fue lo que más te gustó de la experiencia?\n",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "crida de valencia"
+      },
+      {
+        "type": "Entity",
+        "value": "yo"
+      },
+      {
+        "type": "Sentiment/Trigger",
+        "value": "muy bien"
+      }
+    ],
+    "createdAt": "2026-02-23T17:28:12.610Z"
+  },
+  {
+    "id": 1771867771647,
+    "content": "Hola",
+    "aiResponse": "Hola Jose, ¡bienvenido a mi rincón del diario! ¿Qué tal te va en Valencia?\n",
+    "tags": [],
+    "createdAt": "2026-02-23T17:29:31.647Z"
+  },
+  {
+    "id": 1771871388363,
+    "content": "Hola, hoy he ido a clase y le estoy enseñando la app que he desarrollado",
+    "aiResponse": "¡Hola, Jose! Qué bien que estés compartiendo tu creación con otros. ¿Cómo te hace sentir ver a la gente usar la app que has desarrollado?\n",
+    "tags": [
+      {
+        "type": "Event",
+        "value": "attended class"
+      },
+      {
+        "type": "Event",
+        "value": "showing the app developed"
+      },
+      {
+        "type": "Syntax",
+        "value": "Hola"
+      },
+      {
+        "type": "Entity",
+        "value": "I"
+      }
+    ],
+    "createdAt": "2026-02-23T18:29:48.363Z"
+  },
+  {
+    "id": 1771871539857,
+    "content": "Nada",
+    "aiResponse": "Hola Jose, Rocco aquí. A veces, el \"nada\" esconde un universo. ¿Te apetece explorar ese \"nada\" un poco más?\n",
+    "tags": [],
+    "createdAt": "2026-02-23T18:32:19.857Z"
+  }
+]

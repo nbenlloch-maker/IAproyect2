@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="#7ab87e"/>
+  
+  <!-- Body / face base -->
+  <ellipse cx="50" cy="62" rx="30" ry="25" fill="#5a9e5f"/>
+  
+  <!-- Head -->
+  <ellipse cx="50" cy="42" rx="26" ry="22" fill="#6db872"/>
+  
+  <!-- Snout -->
+  <ellipse cx="50" cy="52" rx="18" ry="10" fill="#5a9e5f"/>
+  
+  <!-- Nostrils -->
+  <ellipse cx="45" cy="48" rx="2.5" ry="2" fill="#3d7a42"/>
+  <ellipse cx="55" cy="48" rx="2.5" ry="2" fill="#3d7a42"/>
+  
+  <!-- Smile / teeth -->
+  <path d="M38 55 Q50 62 62 55" stroke="#2d5e30" stroke-width="1.5" fill="none"/>
+  <rect x="44" y="54" width="4" height="5" rx="1" fill="white"/>
+  <rect x="52" y="54" width="4" height="5" rx="1" fill="white"/>
+  
+  <!-- Eyes white -->
+  <ellipse cx="38" cy="36" rx="9" ry="9" fill="white"/>
+  <ellipse cx="62" cy="36" rx="9" ry="9" fill="white"/>
+  
+  <!-- Pupils -->
+  <ellipse cx="40" cy="37" rx="5" ry="5" fill="#1a3a1c"/>
+  <ellipse cx="64" cy="37" rx="5" ry="5" fill="#1a3a1c"/>
+  
+  <!-- Eye shine -->
+  <circle cx="42" cy="35" r="1.5" fill="white"/>
+  <circle cx="66" cy="35" r="1.5" fill="white"/>
+  
+  <!-- Glasses frame left -->
+  <circle cx="38" cy="36" r="10" fill="none" stroke="#8B4513" stroke-width="2.5"/>
+  <!-- Glasses frame right -->
+  <circle cx="62" cy="36" r="10" fill="none" stroke="#8B4513" stroke-width="2.5"/>
+  <!-- Glasses bridge -->
+  <line x1="48" y1="36" x2="52" y2="36" stroke="#8B4513" stroke-width="2.5"/>
+  <!-- Glasses arms -->
+  <line x1="28" y1="33" x2="20" y2="30" stroke="#8B4513" stroke-width="2"/>
+  <line x1="72" y1="33" x2="80" y2="30" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Scales texture -->
+  <ellipse cx="42" cy="65" rx="5" ry="3" fill="#4a8e50" opacity="0.5"/>
+  <ellipse cx="55" cy="68" rx="5" ry="3" fill="#4a8e50" opacity="0.5"/>
+  <ellipse cx="48" cy="72" rx="5" ry="3" fill="#4a8e50" opacity="0.5"/>
+</svg>
